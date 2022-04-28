@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Dosis', sans-serif;
+}
+.container {
+    background-color: #7F6C9D;
+    color: #fff;
+}
+
+.outher {
+    max-width: 1230px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.date {
+    text-transform: none;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+}
+
+.tt, .yt {
+    width: 20px;
+}
+
+.nav-principal {
+    background-color: #484367;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.we-mys {
+    width: 150px;
+}
+
+.wemys-m {
+    display: none;
+}
+
+.options {
+    display: flex;
+    gap: 50px;
+}
+
+a, li {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.main {
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.bg {
+    background-image: url(wmbr-home-horoscopo-dia-desktop-3.jpg);
+
+}
+
+.bg-mobile {
+    display: none;
+    background-image: url(wmbr-home-horoscopo-dia-mobile-1.jpg);
+}
+
+.menu {
+    max-width: 930px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    height: 420px;
+    position: relative;
+    top: 50px;
+    gap: 13px;
+}
+
+.h-day {
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.menu p {
+    font-family: 'Arial', sans-serif;
+}
+
+.btn {
+    background-color: #B67FB5;
+    color: #fff;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.news {
+    font-family: 'Dosis', sans-serif;
+    font-size: 34px;
+    color: #484367;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.text {
+    text-align: center;
+    margin-top: 50px;
+    color: #999999;
+    line-height: 30px;
+}
+
+.footer {
+    background-color: #484367;
+    color: #fff;
+    
+}
+
+.ft {
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+@media (max-width: 667px) {
+    .options {
+        display: none;
+    }
+
+    .we-mys {
+        display: none;
+    }
+
+    .wemys-m {
+        display: block;
+    }
+
+    .bg {
+        display: none;
+    }
+
+    
+    .bg-mobile {
+       background-image: url(wmbr-home-horoscopo-dia-mobile-1.jpg);
+       display: block;
+    }
+
+    .menu-mobile {
+        height: 600px;
+    }
+
+    .m-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-end;
+        position: relative;
+        top: 75%;
+        gap: 10px;
+    }
+    
+}
